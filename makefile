@@ -11,8 +11,8 @@ VSIM = $(MODELSIM_BIN)/vsim # simulator
 # text file with relative paths to hdl files
 FILES = files.txt
 
-# name of top-level design unit
-TOP_LEVEL = counter
+# name of top-level testbench module
+TOP_LEVEL = tb_counter
 
 .PHONY: compile
 compile:
